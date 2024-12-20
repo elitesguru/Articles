@@ -1,0 +1,48 @@
+/* Apply the font and general styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, #ff7e5f, #feb47b, #86a8e7, #7f7fd5, #a8c0ff);
+    /* Starting gradient colors */
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+    /* Animation for smooth color transitions */
+    margin: 0;
+    padding: 0;
+}
+
+/* Heading 2 styling */
+h2 {
+    color: #343a40;
+}
+
+/* Card styles */
+.card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+}
+
+/* Card body background color */
+.card-body {
+    background-color: #f8f9fa;
+}
+
+/* Footer styles */
+footer {
+    background-color: #343a40;
+    color: white;
+}
+
+/* Gradient animation keyframes */
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
